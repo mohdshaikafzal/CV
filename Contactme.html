@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+   <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h2>Enter Your Details</h2>
+    </header>
+    <main>
+        <section>
+            <form action="mailto:mdafzal11846@gmail.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email">
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="number" id="phone" name="phone" placeholder="Enter your Number">
+                </div>
+                <br>
+                <div>
+                    <label>Are you a student?</label><br>
+                    <label for="yes">
+                        <input type="radio" value="Yes" name="student" id="yes">Yes
+                    </label>
+                    <label for="no">
+                        <input type="radio" value="No" name="student" id="no">No
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="city">City:</label><br>
+                    <select id="city" name="city">
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Secunderabad">Secunderabad</option>
+                        <option value="Punjab">Punjab</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" placeholder="Enter Your Age">
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Enter Your Message" rows="4"></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+
